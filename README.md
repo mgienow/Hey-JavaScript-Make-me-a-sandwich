@@ -18,6 +18,23 @@ Easy, right? Well, the process for putting together a useful hunk of JavaScript 
 
 - A JavaScript `function` is a block of **reuseable** code
 
-- A  function stores steps to perform an assigned/specific task. This means that, instead of having to type out instructions every time you want your program to do something, you can simply point it toward your handy-dandy function that spells out the instructions
+- A  function stores the specific steps for performing an assigned task. This means that, instead of having to type out instructions over and over every time you want your program to do a particular thing, you can simply point it toward your handy-dandy function
 
 - Functions save time (and typing!), help organize code to make things more readable, and reduce repetition.
+
+----------------------------------------
+###  Functions are like recipes
+
+A cooking recipe is a list of instructions for how to prepare a specific dish. Functions do pretty much the same thing for creating a JavaScript program.
+
+JavaScript wants to be helpful and do whatever it is you are asking it to do. To be successful, the instructions you give need to be broken down into *single separate steps* in the *logical order* they need to be done.
+
+Let's apply this to making a sandwich. You can't just say, "Hey JavaScript, make me a sandwich!"  Beyond saying what to do, you also need to specify how to do it.
+
+   1. Get a plate.
+   2. Lay a slice of bread on the plate.
+   3. Spread mayo on the bread.
+   4. Put turkey on top of the mayo.
+   5. Put another slice of bread on top of the turkey.
+
+    
