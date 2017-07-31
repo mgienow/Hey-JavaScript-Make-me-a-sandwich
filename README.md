@@ -46,7 +46,7 @@ ______________________________________
 
 ```JavaScript
 function makeSandwich() {
-      *sandwich making steps here
+      //sandwich making steps here
 }
 ```
 
