@@ -44,7 +44,7 @@ Every time you are hungry for a tasty sandwich snack, though, you would need to 
 ______________________________________
 ### Writing a function
 
-> ```JavaScript
+```JavaScript
 function makeSandwich() {
       *sandwich making steps here
 }
