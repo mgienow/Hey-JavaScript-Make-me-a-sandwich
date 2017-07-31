@@ -44,9 +44,11 @@ Every time you are hungry for a tasty sandwich snack, though, you would need to 
 ______________________________________
 ### Writing a function
 
-> ```function makeSandwich() {
+> ```JavaScript
+function makeSandwich() {
       *sandwich making steps here
-} ```
+}
+```
 
 - In JavaScript, functions always contain the `function` keyword.
 
