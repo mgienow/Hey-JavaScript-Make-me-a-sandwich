@@ -14,6 +14,6 @@ Easy, right? Well, the process for putting together a useful hunk of JavaScript 
 ###  Let's Start With Functions
 
 > A function is typically a named section of code that can be "called" by name, and the code inside it will run each time.
-            *Kyle Simpson, YDKJS*
+   *Kyle Simpson, YDKJS*
 
-- A JavaScript function is a block of reuseable code
+- A JavaScript `function` is a block of **reuseable** code
