@@ -29,7 +29,7 @@ A cooking recipe is a list of instructions for how to prepare a specific dish. F
 
 JavaScript wants to be helpful and do whatever it is you are asking it to do. To be successful, the instructions you give need to be broken down into *single separate steps* in the *logical order* they need to be done.
 
-Let's apply this to making a sandwich. You can't just say, "Hey JavaScript, make me a sandwich!"  Beyond saying what to do, you also need to specify how to do it.
+Let's apply this to making a sandwich. You can't just give a general direction like, "Hey JavaScript, make me a sandwich!"  Beyond telling JavaScript **what** to do, you also need to specify exactly **how** to do it.
 
    1. Get a plate.
    2. Lay a slice of bread on the plate.
@@ -37,4 +37,23 @@ Let's apply this to making a sandwich. You can't just say, "Hey JavaScript, make
    4. Put turkey on top of the mayo.
    5. Put another slice of bread on top of the turkey.
 
-    
+Every time you are hungry for a tasty sandwich snack, though, you would need to tell JavaScript *again* how to make the same exact sandwich.
+
+**But**: if you write a function that contains all the steps for making your favorite sandwich, every time you want a snack, you can just tell JavaScript to use the sandwich function!
+
+______________________________________
+### Writing a function
+
+> ```function makeSandwich() {
+      *sandwich making steps here
+} ```
+
+- In JavaScript, functions always contain the `function` keyword.
+
+- This is often followed by the name of the function - a short, descriptive identifier that says what the function does. In this case, make a sandwich.
+
+(Fun fact: When a name contains more than one word, JS uses _camel case_ syntax for naming things -- functions, variables, etc. This means the first word is lower case, and each word after that has its first letter capitalized. Kind of like humps on a camel: camelCase. makeMeASandwichPlease. You get the idea. :camel: :camel: :camel:)
+
+- The function's name is followed by parentheses () -- we will get to why in a minute -- and then two curly brackets {}.
+
+- Between the curly brackets is where the magic happens: that is where you write the code, your set of instructions for what you want JavaScript to do.
