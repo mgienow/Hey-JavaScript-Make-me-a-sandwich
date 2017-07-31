@@ -17,3 +17,7 @@ Easy, right? Well, the process for putting together a useful hunk of JavaScript 
    *Kyle Simpson, YDKJS*
 
 - A JavaScript `function` is a block of **reuseable** code
+
+- A  function stores steps to perform an assigned/specific task. This means that, instead of having to type out instructions every time you want your program to do something, you can simply point it toward your handy-dandy function that spells out the instructions
+
+- Functions save time (and typing!), help organize code to make things more readable, and reduce repetition.
