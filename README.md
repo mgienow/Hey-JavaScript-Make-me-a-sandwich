@@ -72,7 +72,7 @@ Second is the `function invocation` -- where you tell it to now actually Do The 
 Both parts are necessary, but they don't have to actually be kept together inside your JavaScript code. (In fact, you can actually invoke a function BEFORE you even declare it, due to the magic of something known as `hoisting`, but don't worry about that right now).
 
 ------------------------------------
-##Enter the console
+## Enter the console
 
 Let's try it: pop open the developer tools in your browser. `Command + Option + J` for Mac (or `Ctrl + SHift + J` for that other one). This opens the _console_ pane directly - just as the dev tools _elements_ tab is where a page's HTML and CSS reside, console is where you can inspect a page's JS code.
 
@@ -83,3 +83,7 @@ You can also use the console to write, run and test your own JavaScript!
 - The little :no_entry_sign: symbol at the far left of the toolbar is the `clear console` button -- if your console window is getting filled up, or you just want some whitespace, hit that to clear the deck.
 
 - You can also use the up arrows to autocomplete recent code entries. This recall utility is really handy because it can range from bringing back a simple one-line function invocation like `makeSandwich()` to a lengthy multi-line code block. Saves mucho typing!    
+
+- Pressing `enter` runs whatever code you've typed
+
+- Important: while you're writing your code, hit `shift + enter` at the end of each line to tell the compiler, 'Hey - don't run this just yet!' When you are all done, THEN hit `enter`.
